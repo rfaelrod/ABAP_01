@@ -18,6 +18,8 @@ CLASS zcl_generate_travel_data_5927 IMPLEMENTATION.
 
 *https://developers.sap.com/tutorials/abap-environment-data-model.html
 
+* Prueba GitHub
+
 *   fill internal travel table (itab)
     itab = VALUE #(
       ( mykey = '02D5290E594C1EDA93815057FD946624' travel_id = '00000022' agency_id = '070001' customer_id = '000077' begin_date = '20190624' end_date = '20190628' booking_fee = '60.00' total_price =  '750.00' currency_code = 'USD'
@@ -38,5 +40,6 @@ CLASS zcl_generate_travel_data_5927 IMPLEMENTATION.
     out->write( |{ sy-dbcnt } travel entries inserted successfully!| ).
 
   ENDMETHOD.
+
 ENDCLASS.
 
